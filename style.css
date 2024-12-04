@@ -5,6 +5,7 @@
   padding: 0px;
   border: none;
   font-family: "poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 
 /* :root {
