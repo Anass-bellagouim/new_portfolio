@@ -716,6 +716,15 @@ textarea::placeholder {
   }
 }
 
+@media (max-width: 405px) {
+  .num-text1 {
+    font-size: 10px;
+  }
+  .num {
+    font-size: 30px;
+  }
+}
+
 @keyframes anim {
   from {
     transform: translate(0px, 0px);
