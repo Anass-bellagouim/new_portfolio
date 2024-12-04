@@ -1,0 +1,847 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  font-family: "poppins", sans-serif;
+}
+
+/* :root {
+  --bg-color: #081b29;
+  --second-bg-color: #112e42;
+  --text-color: #ededed;
+  --main-color: #00abf0;
+} */
+
+body {
+  background: #081b29;
+}
+
+
+
+
+
+
+/* hna lheader fach dayr smiti o les link dyal les page li fltaht olboton dyal lcontact */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  background-color: #112e42;
+  position: fixed;
+  padding: 0px 80px;
+  z-index: 100;
+}
+
+.header1 {
+  width: 40%;
+  padding-left: 2vw;
+  color: #ededed;
+}
+
+.header-h1 a {
+  font-family: cursive;
+  text-decoration: none;
+  color: #ededed;
+}
+
+.header-h1 a:hover{
+  color: #00abf0;
+}
+
+.header2 {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header2 a {
+  text-decoration: none;
+  color: #ededed;
+  font-family: "poppins";
+  margin-right: 20px;
+}
+
+.header2 a:hover {
+  color: #00abf0;
+  border-bottom: 2px dashed #00abf0;
+}
+
+.header3 {
+  width: 13%;
+  margin-right: 40px;
+}
+
+.header3 a {
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 16px;
+  font-family: "poppins";
+  background-color: #00abf0;
+  color: #ededed;
+}
+
+.header3 :hover {
+  background-color: #ededed;
+  color: #00abf0;
+  transition: all 0.5s ease-in;
+}
+
+
+
+
+
+
+
+
+/* hna l home page fih kalimat trhib otakhasos o m3lomat mokhtasara 3liya ohta tswirti */
+
+.home {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  width: 100%;
+  height: 950px;
+}
+
+.home-text {
+  width: 50%;
+  color: #ededed;
+  position: relative;
+  left: 7vw;
+  top: 300px;
+}
+
+.home-text div > h3 {
+  font-family: "poppins";
+  margin: 7px;
+}
+
+.home-text2 > h1 {
+  font-size: 40px;
+  font-family: cursive;
+  color: #00abf0;
+  margin: 0px 7px;
+}
+
+.my-name {
+  color: #ededed;
+}
+
+.home-text3 p {
+  width: 70%;
+  font-family: "poppins";
+  margin: 10px 7px;
+}
+
+.home-icon {
+  height: 50px;
+  width: 100%;
+  display: flex;
+}
+
+.home-icon div {
+  background-color: #00abf0;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+}
+
+.home-icon div:hover {
+  background-color: #ededed;  transition: all 0.5s ease-out;
+  transform: scale(1.1);
+}
+
+.home-icon div a {
+  color: #ededed;
+}
+
+.home-icon div a i{
+  width: 40px;
+  height: 40px;
+  padding-top: 9px;
+  font-size: 20px;
+}
+
+.home-icon div a:hover {
+  color: #00abf0;
+}
+
+.home-text1-bt {
+  margin-top: 50px;
+  width: 200px;
+}
+
+.home-img {
+  width: 50%;
+  height: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background img {
+  position: relative;
+  top: 3px;
+  height: 900px;
+}
+
+.home-img .animation {
+  width: 5px;
+  height: 5px;
+  background-color: #00abf0;
+  border-radius: 50px;
+  animation-name: anim;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+.home-img .animation1 {
+  width: 5px;
+  height: 5px;
+  background-color: #00abf0;
+  border-radius: 50px;
+  animation-name: anime;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+.home-img .animation2 {
+  width: 5px;
+  height: 5px;
+  background-color: #00abf0;
+  border-radius: 50px;
+  animation-name: anime1;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+.home-img .animation3 {
+  width: 5px;
+  height: 5px;
+  background-color: #00abf0;
+  border-radius: 50px;
+  animation-name: anime2;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+.home-img .animation4 {
+  width: 5px;
+  height: 5px;
+  background-color: #00abf0;
+  border-radius: 50px;
+  animation-name: anime3;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+.home-img .animation5 {
+  width: 5px;
+  height: 5px;
+  background-color: #00abf0;
+  border-radius: 50px;
+  animation-name: anime4;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+.num-text {
+  width: 70%;
+  height: 100px;
+  padding-top: 70px;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.num-text1 {
+  display: flex;
+  font-size: 15px;
+  font-family: cursive;
+}
+
+.num-text .text {
+  display: inline-block;
+  align-content: center;
+}
+
+.num-text .text:hover{
+  color: #00abf0;
+}
+
+.num {
+  font-size: 40px;
+  color: #ededed;
+}
+
+.num:hover{
+  color: #00abf0;
+}
+
+
+
+
+
+
+
+
+/* hna ghadi ndir my service li kankhdm */
+
+.services{
+  padding: 30px 80px;
+  height: auto;
+  background-color: #112e42;
+  padding-bottom: 100px;
+}
+
+.titre-service{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0px 0px 0px;
+}
+
+.titre-service h1{
+  font-family: "poppins";
+  color: #ededed;
+  font-size: 40px;
+}
+
+.titre-service h1 span{
+  color: #00abf0;
+}
+
+.service1{
+  margin: 0px 80px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+.form-service{
+  width: 400px;
+  color: #ededed;
+  padding: 60PX;
+}
+
+.form-service:hover{
+  background-color: #00abf0;
+  transition: all 0.5s linear;
+}
+
+.form-service h1{
+  font-family: "poppins";
+  font-size: 40px;
+}
+
+.form-service p{
+  font-family: "";
+}
+
+.icon-exp{
+  display: flex;
+  text-align: center;
+}
+
+.icon-exp i{
+  font-size: 40px;
+  padding-top: 5px;
+}
+
+.icon-ex{
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  margin: 20px 10px 0px 0px;
+}
+
+.service-btn{
+  margin: 0px 80px;
+  padding: 80px 0px;
+  display: block;
+  text-align: center;
+  
+}
+
+.service-btn button{
+  border-radius: 16px;
+  background-color: #00abf0;
+  padding: 10px 0px;
+  margin-top: 30px;
+}
+
+.service-btn button a{
+  text-decoration: none;
+  color: #ededed;
+  font-family: "";
+  font-size: 20px;
+  padding: 10px 40px;
+}
+
+.service-btn button:hover{
+  background-color: #ededed;
+  color: #00abf0;
+  border: 2px solid #00abf0;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  transform: scaleX(1.1);
+}
+
+.service-btn button a:hover{
+  color: #00abf0;
+}
+
+
+
+
+
+
+
+
+
+/* hna ghaykon resime 3la ga3 dakchi li kan3rf ofin 3rfto */
+.about{
+  height: auto;
+  background-color: #081b29;
+  padding: 50px 80px;
+}
+
+.edication-experience{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 80px;
+  flex-wrap: wrap;
+  margin-bottom: 200px;
+
+}
+
+.edication-experience h1{
+  font-family: "poppins";
+  color: #ededed;
+  font-size: 30px;
+}
+
+.edication-experience h2{
+  font-family: "poppins";
+  color: #ededed;
+  font-size: 20px;
+}
+
+.edication-experience h4{
+  font-family: "poppins";
+  color: #ededed;
+  font-size: 13px;
+  margin: 2px 0px;
+
+}
+
+.edication-experience p{
+  font-family: "poppins";
+  color: #00abf0;
+  font-size: 15px;
+  margin: 2px 0px;
+}
+
+.edication-experience p i{
+  margin-right: 5px;
+}
+
+.edication-experience .titre{
+  width: 100%;
+  height: auto;
+}
+
+.edication{
+  width: 700px;
+  height: auto;
+  padding: 5px 10px;
+  margin: 50px 50px;
+}
+
+.experience{
+  width: 700px;
+  height: auto;
+  padding: 5px 10px;
+  margin: 50px 50px;
+
+}
+
+.box-about{
+  width: auto;
+  height: auto;
+  margin: 15px 0px;
+  padding: 10px;
+  border: 3px solid #00abf0;
+  border-radius: 10px;
+}
+
+.box-about:hover{
+  background-color: #112e42;
+  transition: all 0.5s ease-in;
+  transform: scale(1.1);
+}
+
+  
+
+
+
+
+
+
+
+/* hna ghadi ndir l contact */
+.contact{
+  height: auto;
+  padding: 50px 130px 100px 130px;
+  background-color:#112e42;
+}
+
+.box-deux{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.box-contact{
+  width: 800px;
+  height: 700px;
+  margin: 5px;
+  display: block;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.les_input1 h2{
+  font-family: cursive;
+  margin-bottom: 10px;
+  color: #ededed;
+
+}
+
+.les_input1 p{
+  font-family: cursive;
+  color: #ededed;
+  margin: 0px 40px 30px 40px;
+}
+
+
+.les_input{
+  width: auto;
+}
+
+
+.box-contact input{
+  width: 45%;
+  height: 50px;
+  margin: 10px 0px;
+  border-radius: 10px;
+  border: 3px solid #00abf0;
+  background-color: #112e42;
+  color: #ededed;
+}
+
+.box-contact input:hover{
+  border: 3px solid #ededed;
+}
+
+.box-contact input::placeholder{
+  color: #ededed;
+  padding-left: 10px;
+}
+
+textarea{
+  width: 92%;
+  height: 190px;
+  margin: 10px 10px;
+  resize: none;
+  border-radius: 10px;
+  border: 3px solid #00abf0;
+  background-color: #112e42;
+  color: #ededed;
+}
+
+textarea:hover{
+  border: 3px solid #ededed;
+}
+
+textarea::placeholder{
+  color: #ededed;
+  padding: 10px;
+}
+
+.box-contact button{
+  margin: 20px;
+  padding: 10px 0px;
+  border-radius: 16px;
+  background-color: #00abf0;
+}
+
+.box-contact button:hover{
+background-color: #ededed;
+transition: all 0.5s ease-out;
+transform: scale(1.1);
+border: 2px solid #00abf0;
+}
+
+.box-contact button a{
+ text-decoration: none;
+ color: #ededed;
+ padding: 10px 20px;
+}
+
+.box-contact button a:hover{
+  color: #00abf0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+  width: auto;
+  height: auto;
+  background-color: #081b29;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 80px;
+}
+
+
+.footer-iconTop{
+  height: 40px;
+  width: 40px;
+  background-color: #00abf0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.footer-iconTop:hover{
+  background-color: #ededed;
+  transition: all 1s ease;
+}
+
+.footer-iconTop i{
+  color: #ededed;
+  font-size: 30px;
+  padding-top: 4px;
+}
+
+.footer-iconTop i:hover{
+  color: #00abf0;
+  transition: all 1s ease;
+}
+
+.footer-text p{
+  color: #ededed;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1020px) {
+  .header2,
+  .header3 {
+    display: none;
+  }
+
+  .home-img {
+    display: none;
+  }
+  .home-text {
+    width: 100%;
+  }
+
+}
+
+
+@media (max-width: 1360px) {
+
+}
+
+@media (max-width: 1300px) {
+  .form-service{
+    width: 100%;
+  }
+  .header3{
+    margin-right: 80px;
+  }
+
+  .header2 div{
+    margin-right: 10px;
+  }
+
+}
+
+@media (max-width: 1079px){
+  .box-deux{
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .contact{
+    padding: 0;
+  }
+
+  .services{
+    padding: 0px;
+  }
+
+  .service1{
+    margin: 0px;
+  
+  }
+}
+
+
+
+@media (max-width: 574px){
+ .home{
+  height: 1090px;
+ }
+
+ .edication-experience{
+  padding: 0;
+  margin: 0;
+ }
+
+ .about{
+  padding: 0;
+ }
+
+ .service1{
+  margin: 0px;
+ }
+}
+
+@media (max-width: 590px){
+  .footer-iconTop{
+    display: none;
+  }
+  .num-text1{
+    font-size: 13px;
+  }
+  .num{
+    font-size: 35px;
+  }
+}
+
+
+
+
+
+@keyframes anim {
+  from {
+    transform: translate(0px, 0px);
+  }
+  to {
+    transform: translate(900px, 0px);
+  }
+}
+
+@keyframes anime {
+  from {
+    transform: translate(900px, 0px);
+  }
+  to {
+    transform: translate(0px, 0px);
+  }
+}
+
+@keyframes anime1 {
+  from {
+    transform: translate(0px, 0px);
+  }
+  to {
+    transform: translate(900px, 0px);
+  }
+}
+
+@keyframes anime2 {
+  from {
+    transform: translate(900px, 0px);
+  }
+  to {
+    transform: translate(0px, 0px);
+  }
+}
+
+@keyframes anime3 {
+  from {
+    transform: translate(0px, 0px);
+  }
+  to {
+    transform: translate(900px, 0px);
+  }
+}
+
+@keyframes anime4 {
+  from {
+    transform: translate(900px, 0px);
+  }
+  to {
+    transform: translate(0px, 0px);
+  }
+}
+
+
+
+
+
+
