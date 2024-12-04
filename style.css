@@ -18,11 +18,6 @@ body {
   background: #081b29;
 }
 
-
-
-
-
-
 /* hna lheader fach dayr smiti o les link dyal les page li fltaht olboton dyal lcontact */
 
 header {
@@ -49,7 +44,7 @@ header {
   color: #ededed;
 }
 
-.header-h1 a:hover{
+.header-h1 a:hover {
   color: #00abf0;
 }
 
@@ -91,13 +86,6 @@ header {
   transition: all 0.5s ease-in;
 }
 
-
-
-
-
-
-
-
 /* hna l home page fih kalimat trhib otakhasos o m3lomat mokhtasara 3liya ohta tswirti */
 
 .home {
@@ -115,7 +103,7 @@ header {
   top: 300px;
 }
 
-.home-text .img img{
+.home-text .img img {
   height: 200px;
   margin-top: -400px;
 }
@@ -161,7 +149,8 @@ header {
 }
 
 .home-icon div:hover {
-  background-color: #ededed;  transition: all 0.5s ease-out;
+  background-color: #ededed;
+  transition: all 0.5s ease-out;
   transform: scale(1.1);
 }
 
@@ -169,7 +158,7 @@ header {
   color: #ededed;
 }
 
-.home-icon div a i{
+.home-icon div a i {
   width: 40px;
   height: 40px;
   padding-top: 9px;
@@ -297,7 +286,7 @@ header {
   align-content: center;
 }
 
-.num-text .text:hover{
+.num-text .text:hover {
   color: #00abf0;
 }
 
@@ -306,27 +295,20 @@ header {
   color: #ededed;
 }
 
-.num:hover{
+.num:hover {
   color: #00abf0;
 }
 
-
-
-
-
-
-
-
 /* hna ghadi ndir my service li kankhdm */
 
-.services{
+.services {
   padding: 30px 80px;
   height: auto;
   background-color: #112e42;
   padding-bottom: 100px;
 }
 
-.titre-service{
+.titre-service {
   width: 100%;
   height: 100px;
   display: flex;
@@ -334,77 +316,75 @@ header {
   padding: 100px 0px 0px 0px;
 }
 
-.titre-service h1{
+.titre-service h1 {
   font-family: "poppins";
   color: #ededed;
   font-size: 40px;
 }
 
-.titre-service h1 span{
+.titre-service h1 span {
   color: #00abf0;
 }
 
-.service1{
+.service1 {
   margin: 0px 80px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-
 }
 
-.form-service{
+.form-service {
   width: 400px;
   color: #ededed;
-  padding: 60PX;
+  padding: 60px;
 }
 
-.form-service:hover{
+.form-service:hover {
   background-color: #00abf0;
   transition: all 0.5s linear;
 }
 
-.form-service h1{
+.form-service h1 {
   font-family: "poppins";
   font-size: 40px;
 }
 
-.form-service p{
+.form-service p {
   font-family: "";
 }
 
-.icon-exp{
+.icon-exp {
   display: flex;
   text-align: center;
 }
 
-.icon-exp i{
+.icon-exp i {
   font-size: 40px;
   padding-top: 5px;
 }
 
-.icon-ex{
+.icon-ex {
   width: 50px;
   height: 50px;
   background-color: transparent;
   margin: 20px 10px 0px 0px;
 }
 
-.service-btn{
+.service-btn {
   margin: 0px 80px;
   padding: 80px 0px;
   display: block;
   text-align: center;
-  
 }
 
-.service-btn button{
+.service-btn button {
   border-radius: 16px;
   background-color: #00abf0;
   padding: 10px 0px;
   margin-top: 30px;
 }
 
-.service-btn button a{
+.service-btn button a {
   text-decoration: none;
   color: #ededed;
   font-family: "";
@@ -412,7 +392,7 @@ header {
   padding: 10px 40px;
 }
 
-.service-btn button:hover{
+.service-btn button:hover {
   background-color: #ededed;
   color: #00abf0;
   border: 2px solid #00abf0;
@@ -422,87 +402,76 @@ header {
   transform: scaleX(1.1);
 }
 
-.service-btn button a:hover{
+.service-btn button a:hover {
   color: #00abf0;
 }
 
-
-
-
-
-
-
-
-
 /* hna ghaykon resime 3la ga3 dakchi li kan3rf ofin 3rfto */
-.about{
+.about {
   height: auto;
   background-color: #081b29;
   padding: 50px 80px;
 }
 
-.edication-experience{
+.edication-experience {
   display: flex;
   width: 100%;
   justify-content: space-around;
   margin-top: 80px;
   flex-wrap: wrap;
   margin-bottom: 200px;
-
 }
 
-.edication-experience h1{
+.edication-experience h1 {
   font-family: "poppins";
   color: #ededed;
   font-size: 30px;
 }
 
-.edication-experience h2{
+.edication-experience h2 {
   font-family: "poppins";
   color: #ededed;
   font-size: 20px;
 }
 
-.edication-experience h4{
+.edication-experience h4 {
   font-family: "poppins";
   color: #ededed;
   font-size: 13px;
   margin: 2px 0px;
-
 }
 
-.edication-experience p{
+.edication-experience p {
   font-family: "poppins";
   color: #00abf0;
   font-size: 15px;
   margin: 2px 0px;
 }
 
-.edication-experience p i{
+.edication-experience p i {
   margin-right: 5px;
 }
 
-.edication-experience .titre{
+.edication-experience .titre {
   width: 100%;
   height: auto;
 }
 
-.edication{
+.edication {
   width: 700px;
   height: auto;
   padding: 5px 10px;
   margin: 50px 50px;
 }
 
-.experience{
+.experience {
   width: 700px;
   height: auto;
   padding: 5px 10px;
   margin: 50px 50px;
-
 }
 
-.box-about{
+.box-about {
   width: auto;
   height: auto;
   margin: 15px 0px;
@@ -511,35 +480,26 @@ header {
   border-radius: 10px;
 }
 
-.box-about:hover{
+.box-about:hover {
   background-color: #112e42;
   transition: all 0.5s ease-in;
   transform: scale(1.1);
 }
 
-  
-
-
-
-
-
-
-
 /* hna ghadi ndir l contact */
-.contact{
+.contact {
   height: auto;
   padding: 50px 130px 100px 130px;
-  background-color:#112e42;
+  background-color: #112e42;
 }
 
-.box-deux{
+.box-deux {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-
 }
 
-.box-contact{
+.box-contact {
   width: 800px;
   height: 700px;
   margin: 5px;
@@ -549,26 +509,23 @@ header {
   justify-content: center;
 }
 
-.les_input1 h2{
+.les_input1 h2 {
   font-family: cursive;
   margin-bottom: 10px;
   color: #ededed;
-
 }
 
-.les_input1 p{
+.les_input1 p {
   font-family: cursive;
   color: #ededed;
   margin: 0px 40px 30px 40px;
 }
 
-
-.les_input{
+.les_input {
   width: auto;
 }
 
-
-.box-contact input{
+.box-contact input {
   width: 45%;
   height: 50px;
   margin: 10px 0px;
@@ -578,16 +535,16 @@ header {
   color: #ededed;
 }
 
-.box-contact input:hover{
+.box-contact input:hover {
   border: 3px solid #ededed;
 }
 
-.box-contact input::placeholder{
+.box-contact input::placeholder {
   color: #ededed;
   padding-left: 10px;
 }
 
-textarea{
+textarea {
   width: 92%;
   height: 190px;
   margin: 10px 10px;
@@ -598,52 +555,40 @@ textarea{
   color: #ededed;
 }
 
-textarea:hover{
+textarea:hover {
   border: 3px solid #ededed;
 }
 
-textarea::placeholder{
+textarea::placeholder {
   color: #ededed;
   padding: 10px;
 }
 
-.box-contact button{
+.box-contact button {
   margin: 20px;
   padding: 10px 0px;
   border-radius: 16px;
   background-color: #00abf0;
 }
 
-.box-contact button:hover{
-background-color: #ededed;
-transition: all 0.5s ease-out;
-transform: scale(1.1);
-border: 2px solid #00abf0;
+.box-contact button:hover {
+  background-color: #ededed;
+  transition: all 0.5s ease-out;
+  transform: scale(1.1);
+  border: 2px solid #00abf0;
 }
 
-.box-contact button a{
- text-decoration: none;
- color: #ededed;
- padding: 10px 20px;
+.box-contact button a {
+  text-decoration: none;
+  color: #ededed;
+  padding: 10px 20px;
 }
 
-.box-contact button a:hover{
+.box-contact button a:hover {
   color: #00abf0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-.footer{
+.footer {
   width: auto;
   height: auto;
   background-color: #081b29;
@@ -655,8 +600,7 @@ border: 2px solid #00abf0;
   padding: 10px 80px;
 }
 
-
-.footer-iconTop{
+.footer-iconTop {
   height: 40px;
   width: 40px;
   background-color: #00abf0;
@@ -667,38 +611,26 @@ border: 2px solid #00abf0;
   justify-content: center;
 }
 
-.footer-iconTop:hover{
+.footer-iconTop:hover {
   background-color: #ededed;
   transition: all 1s ease;
 }
 
-.footer-iconTop i{
+.footer-iconTop i {
   color: #ededed;
   font-size: 30px;
   padding-top: 4px;
 }
 
-.footer-iconTop i:hover{
+.footer-iconTop i:hover {
   color: #00abf0;
   transition: all 1s ease;
 }
 
-.footer-text p{
+.footer-text p {
   color: #ededed;
   text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (max-width: 1020px) {
   .header2,
@@ -712,86 +644,76 @@ border: 2px solid #00abf0;
   .home-text {
     width: 100%;
   }
-
 }
 
-
 @media (min-width: 1020px) {
-  .home-text .img img{
+  .home-text .img img {
     display: none;
   }
 }
 
 @media (max-width: 1300px) {
-  .form-service{
+  .form-service {
     width: 100%;
   }
-  .header3{
+  .header3 {
     margin-right: 80px;
   }
 
-  .header2 div{
+  .header2 div {
     margin-right: 10px;
   }
-
 }
 
-@media (max-width: 1079px){
-  .box-deux{
+@media (max-width: 1079px) {
+  .box-deux {
     padding: 0px;
     margin: 0px;
   }
 
-  .contact{
+  .contact {
     padding: 0;
   }
 
-  .services{
+  .services {
     padding: 0px;
   }
 
-  .service1{
+  .service1 {
     margin: 0px;
-  
   }
 }
 
+@media (max-width: 1000px) {
+  .home {
+    height: 1090px;
+  }
 
+  .edication-experience {
+    padding: 0;
+    margin: 0;
+  }
 
-@media (max-width: 600px){
- .home{
-  height: 1000px;
- }
+  .about {
+    padding: 0;
+  }
 
- .edication-experience{
-  padding: 0;
-  margin: 0;
- }
-
- .about{
-  padding: 0;
- }
-
- .service1{
-  margin: 0px;
- }
+  .service1 {
+    margin: 0px;
+  }
 }
 
-@media (max-width: 590px){
-  .footer-iconTop{
+@media (max-width: 590px) {
+  .footer-iconTop {
     display: none;
   }
-  .num-text1{
+  .num-text1 {
     font-size: 13px;
   }
-  .num{
+  .num {
     font-size: 35px;
   }
 }
-
-
-
-
 
 @keyframes anim {
   from {
@@ -846,9 +768,3 @@ border: 2px solid #00abf0;
     transform: translate(0px, 0px);
   }
 }
-
-
-
-
-
-
