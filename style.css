@@ -115,6 +115,11 @@ header {
   top: 300px;
 }
 
+.home-text .img img{
+  height: 200px;
+  margin-top: -400px;
+}
+
 .home-text div > h3 {
   font-family: "poppins";
   margin: 7px;
@@ -711,8 +716,10 @@ border: 2px solid #00abf0;
 }
 
 
-@media (max-width: 1360px) {
-
+@media (min-width: 1020px) {
+  .home-text .img img{
+    display: none;
+  }
 }
 
 @media (max-width: 1300px) {
@@ -751,9 +758,9 @@ border: 2px solid #00abf0;
 
 
 
-@media (max-width: 574px){
+@media (max-width: 600px){
  .home{
-  height: 1090px;
+  height: 1000px;
  }
 
  .edication-experience{
